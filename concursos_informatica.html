@@ -1,0 +1,928 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Questões de Concursos P&uacute;blicos com Gabarito</title>
+<style type="text/css"> 
+<!-- 
+body 
+{
+	background-color: #EBEBEB;
+	font-family: Helvetica, Verdana, Arial, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.twoColFixLt #container
+{ 
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.twoColFixLt #sidebar1
+{
+	position: absolute;
+	left: 0;
+	width: 48%;
+	margin: 0% 1% 0% 1%;
+	padding: 0;
+	text-align: justify;
+}
+
+.twoColFixLt #sidebar2
+{
+	position: absolute;
+	left: 50%;
+	width: 48%;
+	margin: 0% 1% 0% 1%;
+	padding: 0;
+	text-align: justify;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+	function mouseEnter(thisId)
+	{
+		window.document.getElementById(thisId).style.backgroundColor = '#FFCC99';
+		window.document.body.style.cursor = "pointer";
+	}
+
+	function mouseLeave(thisId)
+	{
+		window.document.getElementById(thisId).style.backgroundColor = '#EBEBEB';
+		window.document.body.style.cursor = "auto";
+	}
+
+	function checkTheAnswer(gabId)
+	{
+		window.document.getElementById(gabId).style.visibility = "visible";
+	}
+
+	function hideAnswer(thisId)
+	{
+		var bgc = window.document.getElementById(thisId).style.visibility = "hidden";
+		window.document.body.style.cursor = "auto";
+	}
+-->
+</script>
+</head>
+
+<body class="twoColFixLt">
+	<div id="container">
+		<div id="sidebar1">
+			<hr />
+			<center>
+			<b>UNIX / LINUX / SHELL SCRIPTING</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0001</b> - No Linux, um usuário abre o terminal, digita o comando
+			<br />
+			<br />
+			<font face="Courier New, Courier, monospace">rmdir -p foo/bar/baz</font>
+			<br />
+			<br />
+			e aperta ENTER. O efeito disso será:
+			<br />
+			<br />
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td width="60%" id="q0001opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0001');"><b>(a)</b> O arquivo <font face="Courier New, Courier, monospace">baz</font>, localizado no diretório <font face="Courier New, Courier, monospace">foo/bar</font>, será removido
+					</td>
+					<td width="40%" rowspan="5"><div id="gabarito0001" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+					  <p align="justify">O gabarito é a opção <b>(e)</b>. O comando <font face="Courier New, Courier, monospace">rmdir</font> remove diretórios vazios. Executado com a opção <font face="Courier New, Courier, monospace">-p</font>, que tem o mesmo efeito de <font face="Courier New, Courier, monospace">--parents</font>, ele tentará remover também os diretórios da árvore, caso seja passada uma árvore de diretórios como argumento. Estando tais diretórios vazios, serão removidos.</p>
+					  <br /><center>CLIQUE PARA FECHAR</center></div>
+					</td>
+				</tr>
+				<tr>
+					<td id="q0001opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0001');"><b>(b)</b> Três arquivos, de nomes <font face="Courier New, Courier, monospace">foo</font>, <font face="Courier New, Courier, monospace">bar</font> e <font face="Courier New, Courier, monospace">baz</font>, serão removidos
+					</td>
+				</tr>
+				<tr>
+					<td id="q0001opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0001');"><b>(c)</b> O diretório <font face="Courier New, Courier, monospace">baz</font> será removido, ainda que contenha arquivos
+					</td>
+				</tr>
+				<tr>
+					<td id="q0001opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0001');"><b>(d)</b> Caso não contenha arquivos, o diretório <font face="Courier New, Courier, monospace">baz</font> será removido, enquanto os diretórios <font face="Courier New, Courier, monospace">foo</font> e <font face="Courier New, Courier, monospace">bar</font> permanecerão intactos, ainda que não contenham arquivos
+					</td>
+				</tr>
+				<tr>
+					<td id="q0001opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0001');"><b>(e)</b> Caso não contenham arquivos, os diretórios <font face="Courier New, Courier, monospace">baz</font>, <font face="Courier New, Courier, monospace">bar</font> e <font face="Courier New, Courier, monospace">foo</font> serão removidos
+					</td>
+				</tr>
+			</table>
+			<hr />
+            <center>
+            <b>REGULAR EXPRESSIONS</b>
+			</center>
+            <br />
+            <br />
+			<b>Questão 0003 - (Analista de Sistemas / TRE - MT / 2010 / CespeUNB)</b> - A utilização de expressões regulares permite especificar padrões de busca. Quando os dados de entrada casam com a regra, tem-se um <i>match</i>. Acerca desse assunto, assinale a opção correta.
+		  <br />
+          <br />
+	      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0003opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0003');"><b>(a)</b> O Oracle 10g possui funções SQL que suportam a utilização de expressões regulares. No entanto, essas funções estão restritas aos tipos de dados <font face="Courier New, Courier, monospace">CHAR</font> e <font face="Courier New, Courier, monospace">CLOB</font>.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0003" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0003opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0003');"><b>(b)</b> A expressão regular <font face="Courier New, Courier, monospace">F[A-Z]*A$</font> retorna palavras como <font face="Courier New, Courier, monospace">FALA</font>, <font face="Courier New, Courier, monospace">FACA</font> ou <font face="Courier New, Courier, monospace">FACAS</font>.</td>
+            </tr>
+            <tr>
+            <td id="q0003opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0003');"><b>(c)</b> A expressão regular <font face="Courier New, Courier, monospace">F[a-Z]*A$</font> retorna palavras como <font face="Courier New, Courier, monospace">FALA</font>, <font face="Courier New, Courier, monospace">FalA</font> ou <font face="Courier New, Courier, monospace">FacAs</font>.</td>
+            </tr>
+            <tr>
+            <td id="q0003opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0003');"><b>(d)</b> O comando <font face="Courier New, Courier, monospace">grep</font> do Linux permite a utilização de expressões regulares. Por exemplo, <font face="Courier New, Courier, monospace">grep F*A$ TEXTO.TXT</font> encontrará <font face="Courier New, Courier, monospace">FALA</font>, <font face="Courier New, Courier, monospace">FACA</font> ou <font face="Courier New, Courier, monospace">FEIA</font>, caso o arquivo em questão contenha tais palavras.</td>
+            </tr>
+            <tr>
+            <td id="q0003opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0003');"><b>(e)</b> A expressão regular <font face="Courier New, Courier, monospace">FA.A</font> retorna palavras tais como <font face="Courier New, Courier, monospace">FALA</font> ou <font face="Courier New, Courier, monospace">FAXA</font>, mas não <font face="Courier New, Courier, monospace">FA!A</font>. O ponto pode substituir qualquer caractere do alfabeto, exceto sinais de pontuação ou caracteres especiais.</td>
+            </tr>
+		  </table>
+			<hr />
+            <center>
+            <b>RAID</b>
+			</center>
+            <br />
+            <br />
+			<b>Questão 0005 - (Analista - TI / BACEN / 2010 / CESGRANRIO)</b> - Um servidor de e-mail possui um arranjo RAID-5 formado por 6 discos rígidos, cada um com 1 TB de capacidade. Em determinado momento, um dos discos sofre uma pane, o que ocasiona
+			<br />
+			<br />
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0005opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0005');"><b>(a)</b> perda de dados, caso o defeito tenha sido no disco de paridade.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0005" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0005opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0005');"><b>(b)</b> degradação significativa no desempenho, em virtude dos cálculos de paridade MD5.</td>
+            </tr>
+            <tr>
+            <td id="q0005opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0005');"><b>(c)</b> diminuição de 3 TB para 2,5 TB no espaço total de armazenamento.</td>
+            </tr>
+            <tr>
+            <td id="q0005opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0005');"><b>(d)</b> redução do desempenho, embora não haja perda de dados.</td>
+            </tr>
+            <tr>
+            <td id="q0005opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0005');"><b>(e)</b> parada do sistema operacional para redistribuição da paridade entre os discos.</td>
+            </tr>
+		  </table>
+			<hr />
+            <center>
+            <b>REDES DE COMPUTADORES / TELECOMUNICAçõES</b>
+            </center>
+            <br />
+            <br />
+			<b>Questão 0007 - (Analista de Suporte / BNDES / 2008 / CESGRANRIO)</b> - No âmbito de Qualidade de Serviço (QoS) em redes de computadores, as aplicações de e-mail, transfer&ecirc;ncia de arquivos e login remoto requerem, respectivamente, os níveis de confiabilidade:
+<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0007opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0007');"><b>(a)</b> baixo, médio, alto.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0007" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(e)</b>.</p>
+                <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0007opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0007');"><b>(b)</b> baixo, alto, alto.</td>
+            </tr>
+            <tr>
+            <td id="q0007opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0007');"><b>(c)</b> baixo, alto, médio.</td>
+            </tr>
+            <tr>
+            <td id="q0007opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0007');"><b>(d)</b> médio, baixo, baixo.</td>
+            </tr>
+            <tr>
+            <td id="q0007opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0007');"><b>(e)</b> alto, alto, alto.</td>
+            </tr>
+            </table>
+            <hr />
+            <center>
+            <b>SEGURANÇA DA INFORMAÇÃO</b>
+            </center>
+            <br />
+            <br />
+			<b>Questão 0009 - (Analista de Planejamento e Orçamento - TI / MPOG / 2008 / ESAF)</b> - A segurança da informação tem como objetivo a preservação da
+<br />
+            <br />
+		    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0009opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0009');"><b>(a)</b> confidencialidade, interatividade e acessibilidade informações.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0009" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(e)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0009opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0009');"><b>(b)</b> complexidade, integridade e disponibilidade das informações.</td>
+            </tr>
+            <tr>
+            <td id="q0009opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0009');"><b>(c)</b> confidencialidade, integridade e acessibilidade das informações.</td>
+            </tr>
+            <tr>
+            <td id="q0009opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0009');"><b>(d)</b> universalidade, interatividade e disponibilidade das informações.</td>
+            </tr>
+            <tr>
+            <td id="q0009opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0009');"><b>(e)</b> confidencialidade, integridade e disponibilidade das informações.</td>
+            </tr>
+			</table>
+			<hr />
+            <center>
+            <b>UNIX / LINUX / SHELL SCRIPTING</b>
+            </center>
+            <br />
+            <br />
+			<b>Questão 0011 - (Analista de Suporte / BNDES / 2007 / CESGRANRIO)</b> - Um servidor Linux de produção apresenta, esporadicamente, um erro conhecido, no qual um determinado processo (cgi.rb) ocupa 99% de CPU indeterminadamente. Você, como operador, é instruído a matar esse processo para que o desempenho do servidor volte à situação normal. Que seqüência de operações deve ser feita?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0011opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0011');"><b>(a)</b> Localizar no /proc o processo problemático e executar o comando halt.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0011" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(b)</b>.</p>
+			<br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0011opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0011');"><b>(b)</b> Descobrir o número do processo com ps e executar o comando kill.</td>
+            </tr>
+            <tr>
+            <td id="q0011opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0011');"><b>(c)</b> Verificar o id do processo no arquivo /var/log/err e apagá-lo do /proc.</td>
+            </tr>
+            <tr>
+            <td id="q0011opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0011');"><b>(d)</b> Reiniciar o servidor e apagar, recursivamente, o /proc.</td>
+            </tr>
+            <tr>
+            <td id="q0011opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0011');"><b>(e)</b> Reiniciar o serviço de rede e apagar o /var/run/cgi.rb.pid.</td>
+            </tr>
+            </table>
+            <hr />
+			<center>
+			<b>SEGURANÇA DA INFORMAÇÃO</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0013 - (Analista - TI / BACEN / 2010 / CESGRANRIO)</b> - Suponha que um estudante brasileiro tenha descoberto um algoritmo, determinístico e extremamente rápido, capaz de fatorar um número inteiro de qualquer tamanho. Essa proeza
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0013opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0013');"><b>(a)</b> não afetaria a segurança do RSA, que é baseado em curvas elípticas.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0013" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(c)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0013opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0013');"><b>(b)</b> não inviabilizaria o uso do algoritmo assimétrico AES em protocolos de rede.</td>
+            </tr>
+            <tr>
+            <td id="q0013opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0013');"><b>(c)</b> tornaria inseguros os certificados digitais com chaves geradas pelo RSA.</td>
+            </tr>
+            <tr>
+            <td id="q0013opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0013');"><b>(d)</b> tornaria inseguro o FTP (File Transfer Protocol), que utiliza SSL.</td>
+            </tr>
+            <tr>
+            <td id="q0013opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0013');"><b>(e)</b> inviabilizaria o uso na prática do algoritmo de hash 3DES de 168 bits.</td>
+            </tr>
+            </table>
+			<hr />
+            <center><b>SISTEMAS OPERACIONAIS</b></center>
+			<br />
+			<br />
+			<b>Questão 0015 - (Analista - TI / Câmara dos Deputados / 2007 / FCC)</b> - Para um sistema operacional anexar ou desconectar dispositivos remotos, uma chamada de sistema pertence à categoria de
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0015opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0015');"><b>(a)</b> controle de processos.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0015" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(b)</b>. Fonte: <a href="http://en.wikipedia.org/wiki/System_call">wikipedia</a>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0015opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0015');"><b>(b)</b> comunicações.</td>
+            </tr>
+            <tr>
+            <td id="q0015opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0015');"><b>(c)</b> gerenciamento de arquivos.</td>
+            </tr>
+            <tr>
+            <td id="q0015opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0015');"><b>(d)</b> gerenciamento de dispositivos.</td>
+            </tr>
+            <tr>
+            <td id="q0015opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0015');"><b>(e)</b> manutenção de informações.</td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+            <b>UNIX / LINUX / SHELL SCRIPTING</b>
+            </center>
+			<br />
+			<br />
+			<b>Questão 0017 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - O seguinte comando foi aplicado em um determinado servidor Linux:<br />
+			<br />
+			<font face="Courier New, Courier, monospace">chmod 775 /var/log/messages</font>
+            <br />
+			<br />
+			As permissões resultantes no arquivo são:
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0017opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0017');"><b>(a)</b> <font face="Courier New, Courier, monospace">r-xr-x--x</font></td>
+            <td width="40%" rowspan="5"><div id="gabarito0017" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(e)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0017opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0017');"><b>(b)</b> <font face="Courier New, Courier, monospace">rw-rw-r--</font></td>
+            </tr>
+            <tr>
+            <td id="q0017opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0017');"><b>(c)</b> <font face="Courier New, Courier, monospace">r--r-----</font></td>
+            </tr>
+            <tr>
+            <td id="q0017opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0017');"><b>(d)</b> <font face="Courier New, Courier, monospace">r-xr-xr--</font></td>
+            </tr>
+            <tr>
+            <td id="q0017opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0017');"><b>(e)</b> <font face="Courier New, Courier, monospace">rwxrwxr-x</font></td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+			<b>CONCEITOS BÁSICOS DE SISTEMAS COMPUTACIONAIS</b>
+            </center>
+			<br />
+			<br />
+			<b>Questão 0019 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - Em qual técnica de escrita (<em>write</em>) em <em>cache</em> a informação é gravada, de   maneira síncrona, tanto no <em>cache</em> como nos blocos inferiores da   hierarquia de memória?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0019opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0019');"><b>(a)</b> <em>Write-Through</em></td>
+            <td width="40%" rowspan="5"><div id="gabarito0019" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0019opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0019');"><b>(b)</b> <em>Write-Back</em></td>
+            </tr>
+            <tr>
+            <td id="q0019opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0019');"><b>(c)</b> Paginação Síncrona</td>
+            </tr>
+            <tr>
+            <td id="q0019opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0019');"><b>(d)</b> Paginação Paralela</td>
+            </tr>
+            <tr>
+            <td id="q0019opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0019');"><b>(e)</b> Segmentação DMA-LRU</td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+			<b>CONCEITOS BÁSICOS DE SISTEMAS COMPUTACIONAIS</b>
+            </center>
+			<br />
+			<br />
+			<b>Questão 0021 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - No âmbito de sistemas operacionais, a Anomalia de Belady é um conceito relacionado à gerência de
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0021opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0021');"><b>(a)</b> <i>threads</i>.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0021" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(c)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0021opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0021');"><b>(b)</b> <i>deadlocks</i>.</td>
+            </tr>
+            <tr>
+            <td id="q0021opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0021');"><b>(c)</b> memória.</td>
+            </tr>
+            <tr>
+            <td id="q0021opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0021');"><b>(d)</b> processos.</td>
+            </tr>
+            <tr>
+            <td id="q0021opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0021');"><b>(e)</b> coordenação distribuída.</td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+			<b>JAVA</b>
+            </center>
+			<br />
+			<br />
+			<b>Questão 0023 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - Em que porção da JVM (Java Virtual Machine) são armazenados objetos instanciados em um programa JAVA?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0023opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0023');"><b>(a)</b> Heap</td>
+            <td width="40%" rowspan="5"><div id="gabarito0023" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0023opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0023');"><b>(b)</b> GUnit</td>
+            </tr>
+            <tr>
+            <td id="q0023opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0023');"><b>(c)</b> Stack Pool</td>
+            </tr>
+            <tr>
+            <td id="q0023opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0023');"><b>(d)</b> Dump Buffer</td>
+            </tr>
+            <tr>
+            <td id="q0023opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0023');"><b>(e)</b> Text Segment</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>REDES DE COMPUTADORES / TELECOMUNICAÇÕES</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0025 - (Analista - TI / BACEN / 2010 / CESGRANRIO)</b> - O computador portátil de um usuário doméstico é conectado, por meio de uma rede sem fio 802.11n, a um roteador que dispõe de um link com a Internet. Em dado momento, o usuário não consegue acessar um site de um órgão público e utiliza o comando “ping” para verificar sua conectividade. Todos os sites testados pelo usuário responderam ao comando “ping”, com exceção desse órgão. Com base nesse relato, afirma-se que o(a)
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0025opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0025');"><b>(a)</b> site do órgão público está fora do ar.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0025" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(b)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0025opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0025');"><b>(b)</b> tráfego ICMP pode ter sido filtrado pelo órgão público.</td>
+            </tr>
+            <tr>
+            <td id="q0025opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0025');"><b>(c)</b> roteador de borda do órgão público está congestionado.</td>
+            </tr>
+            <tr>
+            <td id="q0025opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0025');"><b>(d)</b> rede sem fio do usuário está limitada a 54 Mbps.</td>
+            </tr>
+            <tr>
+            <td id="q0025opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0025');"><b>(e)</b> ferramenta Wireshark não poderia capturar o tráfego da rede do usuário.</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>UNIX / LINUX / SHELL SCRIPTING</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0027 - (Analista de Suporte / BNDES / 2008 / CESGRANRIO)</b> - No Linux, que comando é utilizado para criação de links simbólicos?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0027opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0027');"><b>(a)</b> <font face="Courier New, Courier, monospace">dmesg</font></td>
+            <td width="40%" rowspan="5"><div id="gabarito0027" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0027opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0027');"><b>(b)</b> <font face="Courier New, Courier, monospace">rsync</font></td>
+            </tr>
+            <tr>
+            <td id="q0027opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0027');"><b>(c)</b> <font face="Courier New, Courier, monospace">mv -f</font></td>
+            </tr>
+            <tr>
+            <td id="q0027opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0027');"><b>(d)</b> <font face="Courier New, Courier, monospace">ln -s</font></td>
+            </tr>
+            <tr>
+            <td id="q0027opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0027');"><b>(e)</b> <font face="Courier New, Courier, monospace">chmod -l</font></td>
+            </tr>
+            </table>
+			<hr />
+		</div>
+		<div id="sidebar2">
+			<hr />
+			<center><b>UNIX / LINUX / SHELL SCRIPTING</b></center>
+			<br />
+		  <br />
+			<b>Questão 0002</b> - No Linux, um usuário deseja remover o arquivo <font face="Courier New, Courier, monospace">file.txt</font>, localizado no diretório <font face="Courier New, Courier, monospace">parent_dir</font>. Supondo estar o usuário utilizando o terminal, no diretório localizado um nível acima de <font face="Courier New, Courier, monospace">parent_dir</font>, e digitar o comando<br />
+			<br />
+			<font face="Courier New, Courier, monospace">rm parent_dir/file.txt</font>
+            <br />
+			<br />
+			Ao apertar ENTER,
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0002opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0002');"><b>(a)</b> <font face="Courier New, Courier, monospace">file.txt</font> será removido, independentemente de questões relativas a permissões</td>
+            <td width="40%" rowspan="5"><div id="gabarito0002" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(e)</b>. O comando <font face="Courier New, Courier, monospace">rm</font> remove arquivos e diretórios. No entanto, para remover um arquivo utilizando <font face="Courier New, Courier, monospace">rm</font>, o usuário precisa de permissões de escrita e execução sobre o diretório no qual o referido arquivo está localizado. Permissões sobre o arquivo que será removido são irrelevantes.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0002opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0002');"><b>(b)</b> <font face="Courier New, Courier, monospace">file.txt</font> será removido somente se o usuário possuir permissão de escrita sobre ele</td>
+            </tr>
+            <tr>
+            <td id="q0002opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0002');"><b>(c)</b> <font face="Courier New, Courier, monospace">file.txt</font> será removido somente se o usuário possuir permissão de escrita sobre ele e sobre <font face="Courier New, Courier, monospace">parent_dir</font></td>
+            </tr>
+            <tr>
+            <td id="q0002opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0002');"><b>(d)</b> <font face="Courier New, Courier, monospace">file.txt</font> será removido somente se o usuário possuir permissões de escrita e execução sobre ele</td>
+            </tr>
+            <tr>
+            <td id="q0002opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0002');"><b>(e)</b> <font face="Courier New, Courier, monospace">file.txt</font> será removido somente se o usuário possuir permissões de escrita e execução sobre <font face="Courier New, Courier, monospace">parent_dir</font></td>
+            </tr>
+            </table>
+			<hr />
+			<center><b>RAID</b></center>
+			<br />
+			<br />
+			<b>Questão 0004 - (Analista - TI / BACEN / 2010 / CESGRANRIO)</b> - Determinado sistema de informação requer um banco de dados relacional OLTP com 1,5 TB de espaço livre em disco. Para facilitar a manutenção, os administradores do banco de dados solicitaram que fosse disponibilizado um único volume de disco. Adicionalmente, solicitaram que uma falha nesse único disco não ocasionasse a interrupção do sistema, nem a degradação significativa de seu desempenho. Considerando-se que 4 discos de 1 TB farão parte de um arranjo e que é importante alcançar bom desempenho nas operações de escrita, que nível de RAID é recomendado para essa situação?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0004opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0004');"><b>(a)</b> 0</td>
+            <td width="40%" rowspan="5"><div id="gabarito0004" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(e)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0004opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0004');"><b>(b)</b> 1</td>
+            </tr>
+            <tr>
+            <td id="q0004opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0004');"><b>(c)</b> 4</td>
+            </tr>
+            <tr>
+            <td id="q0004opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0004');"><b>(d)</b> 5</td>
+            </tr>
+            <tr>
+            <td id="q0004opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0004');"><b>(e)</b> 1+0</td>
+            </tr>
+            </table>
+			<hr />
+			<center><b>UNIX / LINUX / SHELL SCRIPTING</b></center>
+			<br />
+		  <br />
+			<b>Questão 0006 - (Analista - TI / BACEN / 2010 / CESGRANRIO)</b> - Analise as linhas de um terminal a seguir, obtidas a partir de um servidor Linux:
+			<br />
+			<br />
+			<font face="Courier New, Courier, monospace">[root@fedora-agent ~]# ps -ef | grep buagent
+            <br />
+			root 1765 1 0 17:26 ? 00:00:00 buagent: [listen]
+            <br />
+            <br />
+			root 1903 1833 0 17:28 tty1 00:00:00 grep buagent
+            <br />
+			[root@fedora-agent ~]#</font>
+			<br />
+            <br />
+			Que comando deve ser utilizado para terminar, incondicionalmente, o processo "<font face="Courier New, Courier, monospace">buagent</font>"?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0006opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0006');"><b>(a)</b> <font face="Courier New, Courier, monospace">shutdown tty1 1765 1903</font></td>
+            <td width="40%" rowspan="5"><div id="gabarito0006" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(e)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0006opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0006');"><b>(b)</b> <font face="Courier New, Courier, monospace">kill -HUP 1</font></td>
+            </tr>
+            <tr>
+            <td id="q0006opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0006');"><b>(c)</b> <font face="Courier New, Courier, monospace">kill -KILL 1833 1903 1 1765</font></td>
+            </tr>
+            <tr>
+            <td id="q0006opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0006');"><b>(d)</b> <font face="Courier New, Courier, monospace">kill -HUP 1765</font></td>
+            </tr>
+            <tr>
+            <td id="q0006opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0006');"><b>(e)</b> <font face="Courier New, Courier, monospace">kill -9 1765</font></td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+            <b>SEGURANçA DA INFORMAçãO</b>
+            </center>
+            <br />
+            <br />
+			<b>Questão 0008 - (Analista de Suporte / BNDES / 2008 / CESGRANRIO)</b> - <b><u>NãO</u></b> é uma boa prática de uma política de segurança:
+<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0008opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0008');"><b>(a)</b> difundir o cuidado com a segurança.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0008" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+			<br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0008opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0008');"><b>(b)</b> definir responsabilidades claras de usuários e administradores.</td>
+            </tr>
+            <tr>
+            <td id="q0008opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0008');"><b>(c)</b> ser de fácil leitura e compreensão.</td>
+            </tr>
+            <tr>
+            <td id="q0008opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0008');"><b>(d)</b> incluir os detalhes técnicos de implementação dos mecanismos de segurança.</td>
+            </tr>
+            <tr>
+            <td id="q0008opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0008');"><b>(e)</b> explicitar consequências das violações da própria política.</td>
+            </tr>
+            </table>
+            <hr />
+            <center>
+            <b>JAVA</b>
+            </center>
+            <br />
+            <br />
+			<b>Questão 0010 - (Analista de Suporte / BNDES / 2007 / CESGRANRIO)</b> - Um servidor Linux, que roda, exclusivamente, um servidor de aplicação Java EE, possui 2 GB de memória RAM e 1 CPU. A única aplicação em execução atinge, em momentos de pico, 50 usuários simultâneos. Para que   essa aplicação tenha um desempenho adequado, o tamanho máximo da <i>Heap</i> da JVM pode ser configurado para
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="30%" id="q0010opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0010');"><b>(a)</b> 100 <i>threads</i>.</td>
+            <td width="70%" rowspan="5"><div id="gabarito0010" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+			<p align="justify">O gabarito é a opção <b>(e)</b>.  A e   C estão descartadas pois não se trata de quantidade máxima de threads   suportadas. B está dentro do valor default da JVM Heap Space, e D é o tamanho total da RAM do servidor.</p>
+			<br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0010opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0010');"><b>(b)</b> 32 MB.</td>
+            </tr>
+            <tr>
+            <td id="q0010opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0010');"><b>(c)</b> 60 <i>threads</i>.</td>
+            </tr>
+            <tr>
+            <td id="q0010opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0010');"><b>(d)</b> 2 GB.</td>
+            </tr>
+            <tr>
+            <td id="q0010opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0010');"><b>(e)</b> 512 MB.</td>
+            </tr>
+            </table>
+            <hr />
+            <center>
+            <b>REDES DE COMPUTADORES / TELECOMUNICAÇÕES</b>
+		    </center>
+            <br />
+            <br />
+            <b>Questão 0012 - (Analista Administrativo / ANA / 2009 / ESAF)</b> - O padrão IEEE 802.11, caracterizado por atuar numa faixa de frequências de 2.4 a 2.485 Ghz, com taxa de dados de até 54 Mbps, é o
+			<br />
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+            <td width="60%" id="q0012opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0012');"><b>(a)</b> 802.11a</td>
+            <td width="40%" rowspan="5"><div id="gabarito0012" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+              <p align="justify">O gabarito é a opção <b>(c)</b>.</p>
+              <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0012opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0012');"><b>(b)</b> 802.11b</td>
+            </tr>
+            <tr>
+            <td id="q0012opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0012');"><b>(c)</b> 802.11g</td>
+            </tr>
+            <tr>
+            <td id="q0012opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0012');"><b>(d)</b> 802.11i</td>
+            </tr>
+            <tr>
+            <td id="q0012opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0012');"><b>(e)</b> 802.11q</td>
+            </tr>
+			</table>
+			<hr />
+            <center><b>SEGURANÇA DA INFORMAÇÃO</b></center>
+			<br />
+			<br />
+			<b>Questão 0014 - (Analista de Suporte - TI / BACEN / 2006 / FCC)</b> - Não é uma cifra de César resultante da criptografia sobre uma mesma mensagem:
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0014opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0014');"><b>(a)</b> FHQWUDO</td>
+            <td width="40%" rowspan="5"><div id="gabarito0014" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(b)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0014opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0014');"><b>(b)</b> KMVCWJQ</td>
+            </tr>
+            <tr>
+            <td id="q0014opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0014');"><b>(c)</b> EGPVTCN</td>
+            </tr>
+            <tr>
+            <td id="q0014opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0014');"><b>(d)</b> IKTZXGR</td>
+            </tr>
+            <tr>
+            <td id="q0014opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0014');"><b>(e)</b> GIRXVEP</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>REDES DE COMPUTADORES / TELECOMUNICAÇÕES</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0016 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - Que tecnologia de comunicação de dados, baseada no padrão 802.16, foi   criada para oferecer acesso sem fio de alta velocidade dentro de uma   área metropolitana?
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0016opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0016');"><b>(a)</b> Wi-Fi</td>
+            <td width="40%" rowspan="5"><div id="gabarito0016" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(b)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0016opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0016');"><b>(b)</b> WiMAX</td>
+            </tr>
+            <tr>
+            <td id="q0016opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0016');"><b>(c)</b> Gigabit Ethernet</td>
+            </tr>
+            <tr>
+            <td id="q0016opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0016');"><b>(d)</b> Bluetooth</td>
+            </tr>
+            <tr>
+            <td id="q0016opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0016');"><b>(e)</b> ATM</td>
+            </tr>
+            </table>
+			<hr />
+            <center>
+            <b>CONCEITOS BÁSICOS DE SISTEMAS COMPUTACIONAIS</b>
+            </center>
+			<br />
+			<br />
+			<b>Questão 0018 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - Xen e VMWare são produtos relacionados à tecnologia
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0018opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0018');"><b>(a)</b> Virtualização</td>
+            <td width="40%" rowspan="5"><div id="gabarito0018" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0018opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0018');"><b>(b)</b> Banco de dados</td>
+            </tr>
+            <tr>
+            <td id="q0018opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0018');"><b>(c)</b> VoIP</td>
+            </tr>
+            <tr>
+            <td id="q0018opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0018');"><b>(d)</b> BPM</td>
+            </tr>
+            <tr>
+            <td id="q0018opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0018');"><b>(e)</b> XML</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>SEGURANÇA DA INFORMAÇÃO</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0020 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - Cláudio assinou um determinado email <strong>E</strong> utilizando certificação digital e   o enviou a Mariana. A esse respeito, observe as afirmativas abaixo.
+            <br />
+            <br />
+            I - <strong>E</strong> poderia ser alterado sem que Mariana percebesse a modificação.
+            <br />
+            II   - Se o tráfego de rede no envio de <strong>E</strong> fosse farejado (<em>sniffer</em>), a   confidencialidade da mensagem estaria comprometida.
+            <br />
+            III - Mariana   saberá que <strong>E</strong> foi enviada, de fato, por Cláudio.
+            <br />
+            <br />
+            Está(ão) correta(s) a(s) afirmativa(s)
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0020opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0020');"><b>(a)</b> I, apenas.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0020" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0020opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0020');"><b>(b)</b> II, apenas.</td>
+            </tr>
+            <tr>
+            <td id="q0020opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0020');"><b>(c)</b> III, apenas.</td>
+            </tr>
+            <tr>
+            <td id="q0020opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0020');"><b>(d)</b> II e III, apenas.</td>
+            </tr>
+            <tr>
+            <td id="q0020opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0020');"><b>(e)</b> I, II e III.</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>REDES DE COMPUTADORES / TELECOMUNICAÇÕES</b>
+			</center>
+			<br />
+			<br />
+			<b>Questão 0022 - (Analista - TI / CAPES / 2008 / CESGRANRIO)</b> - É uma função da camada de sessão do modelo OSI o(a)
+			<br />
+			<br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+            <td width="60%" id="q0022opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0022');"><b>(a)</b> controle de diálogo.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0022" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0022opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0022');"><b>(b)</b> controle de congestionamento.</td>
+            </tr>
+            <tr>
+            <td id="q0022opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0022');"><b>(c)</b> detecção e recuperação de erros.</td>
+            </tr>
+            <tr>
+            <td id="q0022opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0022');"><b>(d)</b> remontagem de pacotes.</td>
+            </tr>
+            <tr>
+            <td id="q0022opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0022');"><b>(e)</b> fragmentação de datagramas.</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>REDES DE COMPUTADORES / TELECOMUNICAÇÕES</b>
+			</center>
+            <br />
+            <br />
+            <b>Questão 0024 - (CFO / 2010 / ESAEX)</b> - Em uma rede TCP/IP, os pacotes de informação denominados "quadro", "segmento", "datagrama" e "mensagem" possuem respectivamente as seguintes camadas responsáveis por sua manipulação:
+            <br />
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+            <td width="60%" id="q0024opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0024');"><b>(a)</b> enlace, transporte, rede e aplicação.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0024" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0024opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0024');"><b>(b)</b> aplicação, transporte, rede e enlace.</td>
+            </tr>
+            <tr>
+            <td id="q0024opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0024');"><b>(c)</b> enlace, física, rede e transporte.</td>
+            </tr>
+            <tr>
+            <td id="q0024opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0024');"><b>(d)</b> física, transporte, rede e enlace.</td>
+            </tr>
+            <tr>
+            <td id="q0024opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0024');"><b>(e)</b> transporte, física, rede e aplicação.</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>ITIL</b>
+			</center>
+            <br />
+            <br />
+            <b>Questão 0026</b> - Um dos cinco principais aspectos do Desenho do Serviço é o desenho da solução do serviço. Isso inclui:
+            <br />
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+            <td width="60%" id="q0026opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0026');"><b>(a)</b> Requerimentos, Recursos e Capacidades necessárias e acordadas</td>
+            <td width="40%" rowspan="4"><div id="gabarito0026" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(a)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0026opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0026');"><b>(b)</b> Somente requerimentos necessários e acordados</td>
+            </tr>
+            <tr>
+            <td id="q0026opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0026');"><b>(c)</b> Somente capacidades necessárias e acordadas</td>
+            </tr>
+            <tr>
+            <td id="q0026opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0026');"><b>(d)</b> Somente recursos e capacidades necessárias</td>
+            </tr>
+            </table>
+			<hr />
+			<center>
+			<b>BANCO DE DADOS</b>
+			</center>
+            <br />
+            <br />
+            <b>Questão 0028 - (Analista de Suporte / BNDES / 2008 / CESGRANRIO)</b> - O catálogo (ou dicionário de dados) de um Sistema Gerenciador de Bancos de Dados Relacional
+            <br />
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+            <td width="60%" id="q0028opt1" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);" onclick="checkTheAnswer('gabarito0028');"><b>(a)</b> visa a propiciar o acesso rápido a dados com um determinado valor.</td>
+            <td width="40%" rowspan="5"><div id="gabarito0028" style="margin: 4%; visibility: hidden;" onmouseover="window.document.body.style.cursor = 'pointer';" onmouseout="window.document.body.style.cursor = 'auto';" onclick="hideAnswer(this.id);">
+            <p align="justify">O gabarito é a opção <b>(d)</b>.</p>
+            <br /><center>CLIQUE PARA FECHAR</center></div></td>
+            </tr>
+            <tr>
+            <td id="q0028opt2" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0028');"><b>(b)</b> é um item opcional do banco de dados, que pode ser removido caso o usuário deseje.</td>
+            </tr>
+            <tr>
+            <td id="q0028opt3" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0028');"><b>(c)</b> é raramente utilizado, sendo sua organização pouco influente no desempenho do sistema.</td>
+            </tr>
+            <tr>
+            <td id="q0028opt4" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0028');"><b>(d)</b> contém informações descritivas sobre os diversos objetos do sistema.</td>
+            </tr>
+            <tr>
+            <td id="q0028opt5" onmouseover="mouseEnter(this.id);" onmouseout="mouseLeave(this.id);"  onclick="checkTheAnswer('gabarito0028');"><b>(e)</b> tem seus dados organizados segundo um esquema hierárquico, para maior eficiência no acesso.</td>
+            </tr>
+            </table>
+			<hr />
+			</div>
+	</div>
+</body>
+</html>
